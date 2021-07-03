@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		1E85849A268CC73200BF5F03 /* ChatViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E858499268CC73200BF5F03 /* ChatViewController.swift */; };
+		1E8584B8268D4AC600BF5F03 /* StorageManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E8584B7268D4AC600BF5F03 /* StorageManager.swift */; };
 		1E99B71C267AE8430025015E /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E99B71B267AE8430025015E /* AppDelegate.swift */; };
 		1E99B71E267AE8430025015E /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E99B71D267AE8430025015E /* SceneDelegate.swift */; };
 		1E99B720267AE8430025015E /* ConversationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1E99B71F267AE8430025015E /* ConversationsViewController.swift */; };
@@ -26,6 +28,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		1E858499268CC73200BF5F03 /* ChatViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ChatViewController.swift; sourceTree = "<group>"; };
+		1E8584B7268D4AC600BF5F03 /* StorageManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StorageManager.swift; sourceTree = "<group>"; };
 		1E99B718267AE8430025015E /* ChatApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ChatApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1E99B71B267AE8430025015E /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		1E99B71D267AE8430025015E /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -101,6 +105,7 @@
 				1E99B741267AEC790025015E /* VideoPlayerViewController.swift */,
 				1E99B744267AEC8B0025015E /* NewConversationViewController.swift */,
 				1E99B747267AECA10025015E /* ProfileViewController.swift */,
+				1E858499268CC73200BF5F03 /* ChatViewController.swift */,
 			);
 			path = Controllers;
 			sourceTree = "<group>";
@@ -135,6 +140,7 @@
 				1E99B71D267AE8430025015E /* SceneDelegate.swift */,
 				1ED898E2267C68D00074BAC3 /* Extensions.swift */,
 				1EBACA6426806484009A4940 /* DatabaseManager.swift */,
+				1E8584B7268D4AC600BF5F03 /* StorageManager.swift */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -317,7 +323,9 @@
 				1E99B71C267AE8430025015E /* AppDelegate.swift in Sources */,
 				1E99B748267AECA10025015E /* ProfileViewController.swift in Sources */,
 				1E99B71E267AE8430025015E /* SceneDelegate.swift in Sources */,
+				1E85849A268CC73200BF5F03 /* ChatViewController.swift in Sources */,
 				1E99B73F267AEC630025015E /* PhotoViewerViewController.swift in Sources */,
+				1E8584B8268D4AC600BF5F03 /* StorageManager.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
