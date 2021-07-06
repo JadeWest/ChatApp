@@ -60,6 +60,7 @@ class ConversationsViewController: UIViewController {
         guard let email = UserDefaults.standard.value(forKey: "email") as? String else {
             return
         }
+        
         print("starting conversation fetch...")
         let safeEmail = DatabaseManager.safeEmail(emailAddress: email)
         
